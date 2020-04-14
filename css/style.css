@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fonts start */
+@font-face{
+    font-family: Brandon_bld;
+    src: url(../fonts/Brandon_bld.woff);
+}
+@font-face{
+    font-family: Cubano-Regular ;
+    src: url(../fonts/Cubano-Regular.otf);
+}
+@font-face{
+    font-family: Brandon_med;
+    src: url(../fonts/Brandon_med.woff);
+}
+@font-face{
+    font-family: Brandon_light ;
+    src: url(../fonts/Brandon_light.woff);
+}
+@font-face{
+    font-family: Brandon_bld ;
+    src: url(../fonts/Brandon_bld.woff);
+}
+
+@font-face{
+    font-family: MYRIADPRO-REGULAR ;
+    src: url(../fonts/MYRIADPRO-REGULAR.woff);
+}
+@font-face{
+    font-family: Brandon_reg ;
+    src: url(../fonts/Brandon_reg.woff);
+}
+/* fonts end */
+
+/*top start*/
+.top{
+    overflow: hidden;
+    background-image: url(../images/Escape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*nav bar start */
+.navbar {
+    margin: 50px 0 0 0;
+   
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    
+   
+}
+
+.icon {
+    float: left;
+    width: 9%;
+}
+.icon img{
+
+}
+.icon p{
+    font-family: Cubano-Regular ;
+    font-size: 25px;
+    font-weight: 400;
+    float: right ;
+    color: white;
+
+}
+
+.navmenu {
+    float: right ;
+    width: 70%;
+
+}
+.navmenu ul{
+    list-style: none;
+    float: right;
+
+}
+.navmenu ul li{
+    margin: 0 28px;
+    float: left;
+
+}
+.navmenu ul li a{
+    font-family: Brandon_med;
+    font-size: 18px;
+
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+
+}
+.navmenu ul li a:hover{
+    color: #777777;
+}
+/* nav bar end */
+
+/* top info start*/
+.topinfo {
+    margin: 160px 0 120px 0;
+
+}
+.info{
+    overflow: hidden;
+    width: 100%;
+   
+    text-align: center;
+    
+    
+    
+}
+.info h3,h2,button{
+   
+    color: white;
+
+}
+.info h3{
+    font-family: Brandon_light ;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    
+
+}
+.info h2{
+    font-family: Brandon_bld ;
+    font-size: 66px;
+    margin-bottom: 80px;
+
+}
+.info button{
+    font-family: Brandon_bld ;
+    font-size: 23px;
+    width: 241px;
+    height: 62px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+   background-color: transparent;
+    cursor: pointer;
+
+}
+.info button:focus{
+    outline: none;
+}
+/* top info end */
+
+/*service 1 start */
+
+.service1{
+    overflow: hidden;
+    background-color: white;
+    
+}
+.content1{
+    padding: 100px 0;
+
+}
+.service1content{
+
+    width: 70%;
+    display: inline-block;
+
+}
+.service1content h1{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 56px;
+
+}
+.service1content h1 span{
+
+    font-weight: 900;
+
+}
+.service1content p{
+    font-family: Brandon_reg ;
+    font-size: 18px;
+    line-height: 25px;
+    color: #c0c0c0;
+
+}
+.service1img{
+    float: right;
+    width: 20%;
+
+}
+.service1img img{
+    width: 100%;
+    
+
+}
+.content2{
+    background-color: #fafafa;
+    padding: 100px 0;
+
+}
+.service1content2{
+    float: right;
+
+    width: 70%;
+    display: inline-block;
+
+}
+.service1content2 h1{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 60px;
+    font-weight: 400;
+    padding-bottom: 56px;
+
+}
+.service1content2 h1 span{
+
+    font-weight: 900;
+
+}
+.service1content2 p{
+    font-family: Brandon_reg ;
+    font-size: 18px;
+    line-height: 25px;
+    color: #c0c0c0;
+
+}
+
+.service1img2{
+    float: left;
+    width: 20%;
+
+}
+.service1img2 img{
+    width: 100%;
+    
+
+}
+
+/* service 1 end */
+
+/*service 2 satrt */
+
+.service2{
+    padding: 100px 0;
+
+
+}
+.single{
+    overflow: hidden;
+    width: 40%;
+    display: inline-block;
+    padding-bottom: 51px;
+
+}
+.brandicon{
+    width: 20%;
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    float: left;
+    background-color: black;
+    display: flex;
+      
+}
+
+.brandicon img{
+    margin: auto;
+    
+
+}
+.content{
+    overflow: hidden;
+    width: 75%;
+    float: left;
+    
+    padding-left: 15px;
+
+}
+.content h2{
+    font-family: Brandon_med;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    padding-bottom: 17px;
+
+}
+.content p{
+    font-family: Brandon_reg ;
+    font-size: 18px;
+    font-weight: 300;
+    color: #c0c0c0;
+
+}
+.single:nth-child(even){
+    float: right;
+}
+/* service 2 end */
+
+/*reviews start */
+.reviews{
+   
+    background-color: #fafafa;
+    padding: 100px 0;
+
+}
+/*comment 1 start */
+.text{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.text h1{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 60px;
+    font-weight: 400;
+
+}
+.text span{
+    font-weight: 900;
+}
+.text p{
+    font-family: Brandon_reg ;
+    font-size: 22px;
+
+    color: #c0c0c0;
+
+}
+
+.img1{
+    width: 20%;
+    display: inline-block;
+
+}
+.img1 img{
+    width: 100%;
+
+}
+.comment{
+    width: 50%;
+    float: right;
+    position: relative;
+    background-color: #ffffff;
+    padding: 46px 50px;
+    margin: 59px 255px 0 0;
+    color: #222;
+    border-radius: 3px;
+    
+
+}
+.comment::after{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    top: 80px;
+    left: -30px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 40px solid #ffffff;
+}
+.comment p{
+    font-family: Brandon_reg ;
+    font-size: 26px;
+
+
+}
+.comment span{
+    color: #6a96f2;
+}
+
+/* comment 1 end */
+/*comment 2 start */
+.img2{
+    width: 20%;
+    margin-right: 280px;
+    float: right;
+}
+.img2 img{
+    width: 100%;
+}
+.comment2{
+    
+    width: 50%;
+    float: left;
+    position: relative;
+    background-color: #ffffff;
+    padding: 46px 50px;
+    margin: 59px 0 0 0;
+    color: #222;
+    border-radius: 3px;
+    
+
+}
+.comment2::after{
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    top: 80px;
+    right: -30px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid #ffffff;
+}
+.comment2 p{
+    font-family: Brandon_reg ;
+    font-size: 26px;
+
+
+}
+.comment2 span{
+    color: #6a96f2;
+}
+/*comment 2 end */
+/*reviews end */
+
+/*logos section start */
+
+.logos{
+    overflow: hidden;
+    padding: 60px 0;
+    
+
+}
+.logoimg{
+    width: 50%;
+    margin: 0 auto;
+}
+.logoimg img{
+    margin-right: 20px;
+    
+}
+.logoimg img:first-child{
+    margin-bottom: 5px;
+}
+
+/*logos section end*/
+
+/*team section start */
+.teammember{
+   
+    background-color: black;
+    padding: 100px 0;
+
+}
+.teaminfo{
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+   
+
+}
+.teaminfo h1{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.teaminfo span{
+    font-weight: 900;
+}
+.topp{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 22px;
+
+    color: #777777;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+.singlemember{
+   
+    width: 23%;
+    float: left;
+    margin-right: 105px;
+    margin-bottom: 10px;
+
+}
+.singlemember h4{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+
+}
+.singlemember p{
+    text-align: center;
+    color: white;
+
+}
+.teamicon{
+    margin: 15px 0 0 65px;
+}
+.teamicon a{
+    height: 24px;
+    width: 17px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 8px 12px;
+    
+}
+.bottom{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    margin: 50px 0 0 115px;
+}
+/*team section end */
+
+/*footer start*/
+#fullname {
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 18px;
+    width: 455px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 23px;
+}
+
+#email {
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 18px;
+    width: 455px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 23px;
+}
+
+#message {
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 18px;
+    width: 455px;
+    height: 210px;
+    border-radius: 5px;
+    padding-left: 23px;
+    padding-top: 22px;
+}
+
+.footer {
+    background-color: #7690c5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.footerinfo {
+    width: 40%;
+    float: left;
+}
+
+.footerinfo h1{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+}
+.footerinfo span{
+    font-weight: 900;
+}
+.footerinfo p{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 18px;
+    white-space: 10px;
+    color: white;
+    padding-bottom: 50px;
+}
+.details {
+    overflow: hidden;
+   
+}
+
+.singledetails {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.singledetails img{
+   
+    float: left;
+
+}
+.singledetails h4{
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+    padding-left: 18px;
+    color: white;
+  
+}
+.singledetails:nth-child(even){
+    overflow: hidden;
+    float: right;
+    margin-top: -68px;
+}
+
+.forms {
+    margin-top: 15px;
+    width: 40%;
+    float: right;
+}
+.copyrightinfo{
+    
+    background-color: #7690c5;
+    padding: 30px 30px;
+    
+   
+}
+.copyrightinfo p{
+
+    font-family: MYRIADPRO-REGULAR ;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+
+    
+
+}
+/*footer end */
